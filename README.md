@@ -23,3 +23,4 @@ Public-facing web site
 - Change to 'trellis' directory `cd ../trellis`
 - Install Ansible requirements `ansible-galaxy install -r requirements.yml`
 - Start virtual host `vagrant up` (this may take a while)
+- Access local site at: `http://caerusly.dev` - admin login at `http://caerusly.dev/wp/wp-admin`
