@@ -24,3 +24,9 @@ Public-facing web site
 - Install Ansible requirements `ansible-galaxy install -r requirements.yml`
 - Start virtual host `vagrant up` (this may take a while)
 - Access local site at: `http://caerusly.dev` - admin login at `http://caerusly.dev/wp/wp-admin`
+
+
+## References ##
+
+- Trellis[https://roots.io/trellis/docs/installing-trellis/]
+- Bedrock[https://roots.io/bedrock/docs/installing-bedrock/]
