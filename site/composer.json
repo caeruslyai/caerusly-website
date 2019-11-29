@@ -41,7 +41,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/google-site-kit": "^1.1",
-    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^1.17",
+    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks": "^2.0.1",
     "wpackagist-plugin/formidable": "^4.03"
   },
   "require-dev": {
