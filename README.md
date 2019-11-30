@@ -24,6 +24,26 @@ Public-facing web site
 - Install Ansible requirements `ansible-galaxy install -r requirements.yml`
 - Start virtual host `vagrant up` (this may take a while)
 - Access local site at: `http://caerusly.dev` - admin login at `http://caerusly.dev/wp/wp-admin`
+- Stop virtual host with `vagrant halt`
+
+*Subsequent Dev launch*
+
+- Change to `trellis` directory
+- Start virtual host `vagrant up`
+- Access local site at: `http://caerusly.dev`
+- Stop virtual host with `vagrant halt`
+
+*Maintain Wordpress & plugins using Composer*
+
+- Change to `site` directory
+- Issue Composer commands:
+	- `composer update` to upgrade installed plugins and core Wordpress
+	- `composer require ...` to add new plugins or update version constraints for installed plugin
+
+*Deployment*
+
+- Change to `trellis` directory
+- `./bin/deploy.sh production caerusly.com`
 
 
 ## References ##
